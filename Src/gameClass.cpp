@@ -53,6 +53,7 @@ int GameOfLife::countLivingNeighbors(int row, int col){
 void GameOfLife::setup(){
     grid.clear();
 
+    // Change initial pattern here
     grid.getCell(4, 3).setAlive(true);
     grid.getCell(4, 4).setAlive(true);
     grid.getCell(4, 5).setAlive(true);
